@@ -170,6 +170,7 @@ namespace Budgie {
                 } else { // Default to our launch_new_instance signal
                     launch_new_instance();
                 }
+                this.hide();
             });
 
             close_all_button.clicked.connect(this.close_all_windows); // Close all windows
